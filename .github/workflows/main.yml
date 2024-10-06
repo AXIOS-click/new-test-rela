@@ -1,0 +1,16 @@
+name: test
+
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  prueba:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: echo lo que sea
+        run: |
+          echo 'Hola'
